@@ -69,13 +69,13 @@ volumes:
     driver_opts:
       type: 'none'
       o: 'bind'
-      device: '/home/yatang/data/mariadb'
+      device: '/home/jlarue/data/mariadb'
   wordpress:
     driver: local
     driver_opts:
       type: 'none'
       o: 'bind'
-      device: '/home/yatang/data/wordpress'
+      device: '/home/jlarue/data/wordpress'
 
 networks:
   inception:
